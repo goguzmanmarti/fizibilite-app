@@ -1157,16 +1157,18 @@ export default function App() {
     localStorage.removeItem(`fizibilite-milestone-${id}`);
   };
 
-  return (
-    <div
-      style={{
-        padding: "24px",
-        background: "#f3f4f6",
-        minHeight: "100vh",
-        fontFamily:
-          '-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif',
-      }}
-    >
+ return (
+  <div
+    style={{
+      padding: "24px",
+      background: "#f3f4f6",
+      color: "#111827", // 👈 tüm yazılar için temel renk
+      minHeight: "100vh",
+      fontFamily:
+        '-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif',
+    }}
+  >
+
       <div
         style={{
           maxWidth: "1100px",
